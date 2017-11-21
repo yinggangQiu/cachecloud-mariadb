@@ -1,0 +1,5 @@
+-XX:+DisableExplicitGC -XX:+FlightRecorder -XX:G1ReservePercent=25 -XX:GCLogFileSize=104857600 -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/opt/cachecloud-web/logs/java.hprof -XX:InitialHeapSize=1073741824 -XX:InitiatingHeapOccupancyPercent=40 -XX:MaxDirectMemorySize=1073741824 -XX:MaxGCPauseMillis=200 -XX:MaxHeapSize=1073741824 -XX:NumberOfGCLogFiles=10 -XX:-OmitStackTraceInFastThrow -XX:+PrintCommandLineFlags -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCTimeStamps -XX:ThreadStackSize=256 -XX:+UnlockCommercialFeatures -XX:+UseCompressedOops -XX:+UseG1GC -XX:+UseGCLogFileRotation 
+2017-11-21 15:01:04.366 {main} WARN  o.s.c.i.s.PathMatchingResourcePatternResolver - Skipping [/opt/cachecloud-web/cachecloud-open-web-1.0-SNAPSHOT.war] because it does not denote a directory
+2017-11-21 15:01:20.479 {main} ERROR com.sohu.cache.async.impl.AsyncServiceImpl - machine-pool is assembled
+2017-11-21 15:01:22.189 {main} WARN  com.sohu.cache.jmx.ErrorLoggerWatcher - ErrorStatisticsAppender init begin!
+2017-11-21 15:01:22.194 {main} WARN  com.sohu.cache.jmx.ErrorLoggerWatcher - ErrorStatisticsAppender init Done!
